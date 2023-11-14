@@ -85,8 +85,45 @@ nav li a {
 .ban{
     width: 1440px;
     height: 700px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     
+}
+@media screen and (max-width:576px) {
+    nav {
+            margin-left: 5px;
+            flex-direction: column;
+    }
+    .banner {
+        margin-left: 1px;
+        margin-right: 1px;
+        width: 100%;
+    }
+    .ban {
+        width: 500px;
+        height: 250px;
+    }
+    nav > ul {
+        margin-right: 1px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:1500px) {
+    nav {
+            margin-left: 5px;
+            flex-direction: column;
+    }
+    .banner {
+        margin-left: 1px;
+        margin-right: 1px;
+        width: 100%;
+    }
+    .ban {
+        width: 500px;
+        height: 250px;
+    }
+    nav > ul {
+        margin-right: 1px;
+    }
 }
 
 
