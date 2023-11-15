@@ -227,11 +227,11 @@ main {
 }
 
 footer {
-   
-    
+
+
     background: #FFF4E7;
     padding: 5px;
-  
+
     border-radius: 10px;
     text-align: center;
     margin-left: 200px;
@@ -241,10 +241,74 @@ footer {
 .footer-des {
     color: #424242);
     text-align: center;
-     font-size: 20px;
-     font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.feature-contain {
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.feature-title {
+    border-left: 5px solid tomato;
+    padding-left: 20px;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.feature-des {
+    width: 586px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.card-1 {
+    margin-top: 30px;
+    width: 586px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+
+}
+
+.btn-2 {
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    width: 342px;
+    height: 200px;
+    position: relative;
+    bottom: 100px;
+}
+
+.btn-title {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+
+
+}
+
+.btn-des {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+   margin: 0;
     
 }
+.img-1 {
+    margin-left: 50px;
+}
+
 
 
 
@@ -263,7 +327,8 @@ footer {
 
     .ban {
         width: 500px;
-        height: 250px;    }
+        height: 250px;
+    }
 
     nav>ul {
         margin-right: 1px;
@@ -288,24 +353,47 @@ footer {
         row-gap: 50px;
 
     }
-    .sponsor-para{
+
+    .sponsor-para {
         margin-left: 10%;
         margin-right: 70%;
         margin: auto;
     }
-    footer{
+
+    footer {
         width: 200px;
         height: 120px;
     }
-.fact-des{
-    width: 300px;
-}
-.sponsor-para {
-    width: 300px;
-}
 
-    .footer-des{
+    .fact-des {
+        width: 300px;
+    }
+
+    .sponsor-para {
+        width: 300px;
+    }
+
+    .footer-des {
         width: 200px;
+    }
+    .feature-contain{
+        flex-direction: column;
+    }
+    .img-1 {
+        width: 350px;
+        height: 500px;
+    }
+    .btn-2{
+        width: 100px;
+        height: 50px;
+        bottom: 50px;
+        
+    }
+    .btn-title{
+        font-size: 20px;
+    }
+    .btn-des{
+        font-size: 16px;
     }
 }
 
