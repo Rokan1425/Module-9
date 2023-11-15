@@ -88,6 +88,57 @@ nav li a {
     margin-bottom: 40px;
     
 }
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.main-1st-part{
+    display: flex;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.main-1st-part{
+    align-items: center;
+    margin-top: 50px;
+}
+.main-2nd-part{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.main-2nd-part>h2{
+    width: 468px;
+}
+.s-1 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+
+}
+.s-2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.s-3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF900E
+
+}
+.main-2nd-part>p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+
+}
+
+
+
 @media screen and (max-width:576px) {
     nav {
             margin-left: 5px;
