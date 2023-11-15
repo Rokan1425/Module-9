@@ -157,6 +157,10 @@ main {
     margin-top: 100px;
 }
 
+.fact-element {
+    text-align: center;
+}
+
 .fact-title {
     color: #131313);
     font-size: 3rem;
@@ -164,27 +168,82 @@ main {
     font-weight: 700;
     line-height: normal;
 }
-.fact-des{
+
+.fact-des {
     width: 540px;
-    margin-top: -30px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin: auto;
+
 }
-.card{
+
+.card {
+    margin-top: 50px;
     border: 5px solid tomato;
     border-radius: 5px;
     text-align: center;
     padding: 80px;
-    
-    
+
+
+
 }
-.icon-container{
+
+.icon-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.mar-1{
+
+.mar-1 {
     margin-top: -1px;
     margin-bottom: -1px;
+}
+
+.sponsor-container {
+    text-align: center;
+    margin-top: 170px;
+}
+
+.sponsor-title {
+    color: #131313;
+    font-size: 45px;
+}
+
+.sponsor-para {
+    width: 540px;
+    margin-right: 50%;
+    margin-left: 50%;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.sponsor-image {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+}
+
+footer {
+   
+    
+    background: #FFF4E7;
+    padding: 5px;
+  
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.footer-des {
+    color: #424242);
+    text-align: center;
+     font-size: 20px;
+     font-weight: 400;
+    
 }
 
 
@@ -193,6 +252,7 @@ main {
     nav {
         margin-left: 5px;
         flex-direction: column;
+        font-weight: 700;
     }
 
     .banner {
@@ -203,8 +263,7 @@ main {
 
     .ban {
         width: 500px;
-        height: 250px;
-    }
+        height: 250px;    }
 
     nav>ul {
         margin-right: 1px;
@@ -216,6 +275,37 @@ main {
 
     .team-container {
         grid-template-columns: 1fr;
+    }
+
+    .icon-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sponsor-image {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        row-gap: 50px;
+
+    }
+    .sponsor-para{
+        margin-left: 10%;
+        margin-right: 70%;
+        margin: auto;
+    }
+    footer{
+        width: 200px;
+        height: 120px;
+    }
+.fact-des{
+    width: 300px;
+}
+.sponsor-para {
+    width: 300px;
+}
+
+    .footer-des{
+        width: 200px;
     }
 }
 
